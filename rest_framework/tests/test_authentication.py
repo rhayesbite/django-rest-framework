@@ -491,8 +491,7 @@ class OAuth2Tests(TestCase):
                 client_secret=self.CLIENT_SECRET,
                 redirect_uri='',
                 client_type=0,
-                name='example',
-                user=None,
+                name='example'
             )
 
         self.access_token = oauth2_provider_models.AccessToken.objects.create(
